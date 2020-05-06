@@ -5,7 +5,7 @@ public class Main{
         System.out.println("Tabuleiro inicial:");
         tab.imprimirtabuleiro();
         CSVReader csv = new CSVReader();
-        csv.setDataSource("Trabalho---POO---2020---P2/blob/master/Entradas.csv");
+        csv.setDataSource("Trabalho-POO-P3/blob/master/CSVReader.java");
         String commands[] = csv.requestCommands();
         int tamanho = commands.length;
         int aux = 0;
